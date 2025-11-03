@@ -1,10 +1,18 @@
 headers = {
-    "Content-Type": "application/json",
-    "Authorization": "Bearer jknnFApafP4awfAIFfafam2fma"
+    "Content-Type": "application/json"
 }
-user_body=  {"firstName": "Анатолий","phone": "+74441237887","address": "г. Москва, ул. Хохотушкина, д. 16"}
 
-
-kit_body = {
-"name": "a"
+body= {
+    "firstName": "Naruto",
+    "lastName": "Uchiha",
+    "address": "Konoha, 142 apt.",
+    "metroStation": 4,
+    "phone": "+7 800 355 35 35",
+    "rentTime": 5,
+    "deliveryDate": "2020-06-06",
+    "comment": "Saske, come back to Konoha",
+    "color": [
+        "BLACK"
+    ]
 }
+
